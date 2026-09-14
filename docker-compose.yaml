@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  react-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: order_management_react_web
+    ports:
+      - "5173:80"
+    restart: always
