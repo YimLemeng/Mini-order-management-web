@@ -37,4 +37,6 @@ A modern, responsive, and interactive Web Dashboard for the **Order Management S
 4. Start development server:
    ```bash
     npm run dev
-6. Open your browser at http://localhost:5173.
+6. Open your browser at
+   ```bash
+   http://localhost:5173.
