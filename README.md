@@ -1,30 +1,38 @@
-# Order Management System - React JS Frontend
+# 💻 Mini Order Management System (React JS Web UI)
 
-កម្មវិធី Frontend នេះត្រូវបានสร้างឡើងដោយប្រើប្រាស់ **React JS (Vite)**, **Tailwind CSS**, និង **Axios** សម្រាប់ភ្ជាប់ទៅកាន់ Spring Boot Order Management REST API។
-
----
-
-## 🚀 របៀបដំណើរការ (How to Run)
-
-### 1. ដំណើរការ Spring Boot Backend (Port 8080)
-បើក Terminal ទៅកាន់ថត Backend៖
-```bash
-cd /Users/Lemeng/.gemini/antigravity/scratch/order-management-system
-mvn spring-boot:run
-```
-
-### 2. ដំណើរការ React JS Frontend (Port 5173)
-បើក Terminal មួយទៀតទៅកាន់ថត Frontend៖
-```bash
-cd /Users/Lemeng/.gemini/antigravity/scratch/order-management-web
-npm run dev
-```
-
-បិទ/បើក Browser ទៅកាន់រៀបរាប់ URL៖ `http://localhost:5173`
+A modern, responsive, and interactive Web Dashboard for the **Order Management System** built with **React JS**, **Vite**, **Tailwind CSS**, and **Axios**.
 
 ---
 
-## 🌟 លក្ខណៈពិសេសរបស់ Frontend (Features)
-- **Customer Management Tab**: បង្កើត/កែប្រែ/លុប អតិថិជន និងព័ត៌មាន Profile អាសយដ្ឋាន។
-- **Product & Stock Tab**: គ្រប់គ្រងតម្លៃផលិតផល និងចំនួនស្តុក (មាន Stock badges បង្ហាញព័ត៌មានជាក់ស្តែង)។
-- **Order Processing Tab**: បង្កើត Order ថ្មី (ជ្រើសរើស Customer, បន្ថែមទំនិញច្រើនមុខ, គណនាតម្លៃសរុបស្វ័យប្រវត្ត) ព្រមទាំងអាចប្តូរ Status ឬ Cancel Order ដើម្បីបង្វិលស្តុកចូលវិញ។
+## 🚀 Key Features
+
+- **Customer Management**: View, search, paginate, create, edit, and delete customer profiles.
+- **Product Inventory & Stock**: Manage item prices, track inventory levels with dynamic stock status badges (*In Stock*, *Low Stock*, *Out of Stock*).
+- **Order Processing & Transaction History**:
+  - Interactive Order Placement Modal (select customer, add multi-item products, dynamic stock validation & live total calculation).
+  - Real-time Order Status Updates (`PENDING`, `PAID`, `SHIPPED`, `DELIVERED`, `CANCELLED`).
+  - Automatic Inventory Stock Restoration upon order cancellation.
+- **Error Interceptor**: Clean modal and toast error notifications handling Spring Boot `@ControllerAdvice` validation feedback.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: React 18 (Vite 5)
+- **Styling**: Tailwind CSS
+- **HTTP Client**: Axios
+- **Icons**: Lucide React
+
+---
+
+## ⚙️ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YimLemeng/Mini-order-management-web.git
+   cd Mini-order-management-web
+2. Install dependencies:
+   npm install
+3. Start development server:
+    npm run dev
+4. Open your browser at http://localhost:5173.
