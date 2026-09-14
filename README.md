@@ -32,7 +32,9 @@ A modern, responsive, and interactive Web Dashboard for the **Order Management S
    git clone https://github.com/YimLemeng/Mini-order-management-web.git
    cd Mini-order-management-web
 2. Install dependencies:
+   ```bash
    npm install
-3. Start development server:
+4. Start development server:
+   ```bash
     npm run dev
-4. Open your browser at http://localhost:5173.
+6. Open your browser at http://localhost:5173.
