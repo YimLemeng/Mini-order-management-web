@@ -24,9 +24,6 @@ export default function App() {
               </div>
               <div>
                 <h1 className="font-bold text-lg leading-tight tracking-tight">Order Management Dashboard</h1>
-                <p className="text-xs text-slate-400 flex items-center gap-1">
-                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" /> Connected to Spring Boot API (Port 8080)
-                </p>
               </div>
             </div>
 
